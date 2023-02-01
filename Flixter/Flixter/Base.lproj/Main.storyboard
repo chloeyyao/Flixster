@@ -102,16 +102,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="fGl-nU-08f" userLabel="main">
-                                <rect key="frame" x="24" y="111" width="345" height="485"/>
+                                <rect key="frame" x="24" y="111" width="345" height="699"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fcb-JB-gIb">
                                         <rect key="frame" x="0.0" y="0.0" width="345" height="200"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="200" id="79k-PN-ARk"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="79k-PN-ARk"/>
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="6Sm-FM-I3l" userLabel="labels">
-                                        <rect key="frame" x="0.0" y="225" width="329" height="260"/>
+                                        <rect key="frame" x="0.0" y="225" width="329" height="474"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEU-D9-hHl">
                                                 <rect key="frame" x="16" y="0.0" width="297" height="20"/>
@@ -123,19 +123,19 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="F93-37-htF" userLabel="votes+popularity">
-                                                <rect key="frame" x="53.666666666666686" y="51" width="222" height="50"/>
+                                                <rect key="frame" x="53.666666666666686" y="51" width="222" height="56.666666666666657"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aOC-uQ-HuU" userLabel="votes">
-                                                        <rect key="frame" x="0.0" y="0.0" width="101" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="101" height="56.666666666666664"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vote Average" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roC-uo-Drq">
-                                                                <rect key="frame" x="0.0" y="0.0" width="101" height="17"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="101" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Votes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbb-G7-wCY" userLabel="votes">
-                                                                <rect key="frame" x="28.666666666666661" y="33" width="43.333333333333343" height="17"/>
+                                                                <rect key="frame" x="28.666666666666661" y="36.333333333333314" width="43.333333333333343" height="20.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -143,7 +143,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="popularity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7D-9Q-qt8">
-                                                        <rect key="frame" x="121" y="8" width="101" height="34"/>
+                                                        <rect key="frame" x="121" y="8" width="101" height="40.666666666666664"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -155,10 +155,10 @@
                                                 </constraints>
                                             </stackView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hhq-nc-izL">
-                                                <rect key="frame" x="16" y="132" width="297" height="128"/>
+                                                <rect key="frame" x="16" y="138.66666666666671" width="297" height="335.33333333333326"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" priority="999" constant="128" id="GlG-pz-Wcy"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" priority="999" constant="128" id="GlG-pz-Wcy"/>
                                                 </constraints>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <color key="textColor" systemColor="labelColor"/>
@@ -170,7 +170,7 @@
                                             <constraint firstAttribute="trailing" secondItem="YEU-D9-hHl" secondAttribute="trailing" constant="16" id="LO5-gI-RD9"/>
                                             <constraint firstItem="YEU-D9-hHl" firstAttribute="top" secondItem="6Sm-FM-I3l" secondAttribute="top" id="MhM-Pg-bHB"/>
                                             <constraint firstItem="YEU-D9-hHl" firstAttribute="leading" secondItem="6Sm-FM-I3l" secondAttribute="leading" constant="16" id="hU5-n9-POJ"/>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="hYi-0j-hsn"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="hYi-0j-hsn"/>
                                             <constraint firstItem="Hhq-nc-izL" firstAttribute="leading" secondItem="6Sm-FM-I3l" secondAttribute="leading" constant="16" id="sIo-VU-CTV"/>
                                         </constraints>
                                     </stackView>
@@ -178,6 +178,9 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="fcb-JB-gIb" secondAttribute="trailing" id="36r-WP-zWa"/>
                                     <constraint firstAttribute="trailing" secondItem="6Sm-FM-I3l" secondAttribute="trailing" constant="16" id="ihc-FT-5S8"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Sm-FM-I3l" secondAttribute="trailing" constant="16" id="mzL-N1-eB2"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Sm-FM-I3l" secondAttribute="bottom" id="sP1-Sp-AHY"/>
+                                    <constraint firstItem="6Sm-FM-I3l" firstAttribute="top" secondItem="fcb-JB-gIb" secondAttribute="bottom" priority="999" constant="8" id="w5M-gU-e5s"/>
                                 </constraints>
                             </stackView>
                         </subviews>
