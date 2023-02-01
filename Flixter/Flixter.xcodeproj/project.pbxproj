@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99B43C4298A1FCE007EEC22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B43C3298A1FCE007EEC22 /* AppDelegate.swift */; };
+		C99B43C6298A1FCE007EEC22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B43C5298A1FCE007EEC22 /* SceneDelegate.swift */; };
+		C99B43C8298A1FCE007EEC22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B43C7298A1FCE007EEC22 /* ViewController.swift */; };
+		C99B43CB298A1FCE007EEC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99B43C9298A1FCE007EEC22 /* Main.storyboard */; };
+		C99B43CD298A1FCF007EEC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99B43CC298A1FCF007EEC22 /* Assets.xcassets */; };
+		C99B43D0298A1FCF007EEC22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99B43CE298A1FCF007EEC22 /* LaunchScreen.storyboard */; };
+		C99B43D8298A20EB007EEC22 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B43D7298A20EB007EEC22 /* Movie.swift */; };
+		C9C91C9F298A26A300121B6E /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C91C9E298A26A300121B6E /* MovieViewController.swift */; };
+		C9C91CA1298ACAC800121B6E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C91CA0298ACAC800121B6E /* MovieCell.swift */; };
+		C9C91CA4298ACC6400121B6E /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = C9C91CA3298ACC6400121B6E /* Nuke */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C99B43C0298A1FCE007EEC22 /* Flixter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99B43C3298A1FCE007EEC22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C99B43C5298A1FCE007EEC22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C99B43C7298A1FCE007EEC22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99B43CA298A1FCE007EEC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C99B43CC298A1FCF007EEC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C99B43CF298A1FCF007EEC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C99B43D1298A1FCF007EEC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99B43D7298A20EB007EEC22 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C9C91C9E298A26A300121B6E /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		C9C91CA0298ACAC800121B6E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99B43BD298A1FCE007EEC22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C91CA4298ACC6400121B6E /* Nuke in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99B43B7298A1FCE007EEC22 = {
+			isa = PBXGroup;
+			children = (
+				C99B43C2298A1FCE007EEC22 /* Flixter */,
+				C99B43C1298A1FCE007EEC22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99B43C1298A1FCE007EEC22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99B43C0298A1FCE007EEC22 /* Flixter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99B43C2298A1FCE007EEC22 /* Flixter */ = {
+			isa = PBXGroup;
+			children = (
+				C99B43C3298A1FCE007EEC22 /* AppDelegate.swift */,
+				C99B43C5298A1FCE007EEC22 /* SceneDelegate.swift */,
+				C99B43C7298A1FCE007EEC22 /* ViewController.swift */,
+				C99B43C9298A1FCE007EEC22 /* Main.storyboard */,
+				C9C91CA0298ACAC800121B6E /* MovieCell.swift */,
+				C9C91C9E298A26A300121B6E /* MovieViewController.swift */,
+				C99B43D7298A20EB007EEC22 /* Movie.swift */,
+				C99B43CC298A1FCF007EEC22 /* Assets.xcassets */,
+				C99B43CE298A1FCF007EEC22 /* LaunchScreen.storyboard */,
+				C99B43D1298A1FCF007EEC22 /* Info.plist */,
+			);
+			path = Flixter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99B43BF298A1FCE007EEC22 /* Flixter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99B43D4298A1FCF007EEC22 /* Build configuration list for PBXNativeTarget "Flixter" */;
+			buildPhases = (
+				C99B43BC298A1FCE007EEC22 /* Sources */,
+				C99B43BD298A1FCE007EEC22 /* Frameworks */,
+				C99B43BE298A1FCE007EEC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flixter;
+			packageProductDependencies = (
+				C9C91CA3298ACC6400121B6E /* Nuke */,
+			);
+			productName = Flixter;
+			productReference = C99B43C0298A1FCE007EEC22 /* Flixter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99B43B8298A1FCE007EEC22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C99B43BF298A1FCE007EEC22 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C99B43BB298A1FCE007EEC22 /* Build configuration list for PBXProject "Flixter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99B43B7298A1FCE007EEC22;
+			packageReferences = (
+				C9C91CA2298ACC6400121B6E /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = C99B43C1298A1FCE007EEC22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99B43BF298A1FCE007EEC22 /* Flixter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99B43BE298A1FCE007EEC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B43D0298A1FCF007EEC22 /* LaunchScreen.storyboard in Resources */,
+				C99B43CD298A1FCF007EEC22 /* Assets.xcassets in Resources */,
+				C99B43CB298A1FCE007EEC22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99B43BC298A1FCE007EEC22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B43C8298A1FCE007EEC22 /* ViewController.swift in Sources */,
+				C9C91C9F298A26A300121B6E /* MovieViewController.swift in Sources */,
+				C9C91CA1298ACAC800121B6E /* MovieCell.swift in Sources */,
+				C99B43C4298A1FCE007EEC22 /* AppDelegate.swift in Sources */,
+				C99B43D8298A20EB007EEC22 /* Movie.swift in Sources */,
+				C99B43C6298A1FCE007EEC22 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C99B43C9298A1FCE007EEC22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99B43CA298A1FCE007EEC22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C99B43CE298A1FCF007EEC22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99B43CF298A1FCF007EEC22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99B43D2298A1FCF007EEC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C99B43D3298A1FCF007EEC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C99B43D5298A1FCF007EEC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQAN8G7R2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flixter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChloeYao.Introduce.Flixter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C99B43D6298A1FCF007EEC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQAN8G7R2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flixter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChloeYao.Introduce.Flixter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99B43BB298A1FCE007EEC22 /* Build configuration list for PBXProject "Flixter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B43D2298A1FCF007EEC22 /* Debug */,
+				C99B43D3298A1FCF007EEC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99B43D4298A1FCF007EEC22 /* Build configuration list for PBXNativeTarget "Flixter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B43D5298A1FCF007EEC22 /* Debug */,
+				C99B43D6298A1FCF007EEC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9C91CA2298ACC6400121B6E /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9C91CA3298ACC6400121B6E /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C91CA2298ACC6400121B6E /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C99B43B8298A1FCE007EEC22 /* Project object */;
+}
