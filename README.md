@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/chloeyyao/Flixster/blob/main/Kapture%202023-02-01%20at%2021.36.21.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/chloeyyao/Flixster/blob/main/Kapture%202023-02-01%20at%2022.00.11.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap 
 <!-- Recommended tools:
