@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://github.com/chloeyyao/Flixster/blob/main/Kapture%202023-02-01%20at%2021.36.21.gif
+![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/chloeyyao/Flixster/blob/main/Kapture%202023-02-01%20at%2021.36.21.gif))
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap 
