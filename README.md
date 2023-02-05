@@ -59,7 +59,7 @@ Autolayout was very challenging to work with.
     limitations under the License.
     
     
-Project 3 - *Flixter Part 2*
+# Project 3 - *Flixter Part 2*
 
 Submitted by: **Chloe Yao**
 
